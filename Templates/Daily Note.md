@@ -8,21 +8,23 @@ tags:: [[+Daily Notes]]
 << [[Journal/Daily/<% tp.date.now("YYYY", -1) %>/<% tp.date.now("MM MMMM", -1) %>/<% tp.date.now("Do MMMM  YY - ddd", -1) %>|Previous day]] | [[Journal/Daily/<% tp.date.now("YYYY", 1) %>/<% tp.date.now("MM MMMM", 1) %>/<% tp.date.now("Do MMMM  YY - ddd", 1) %>|Next day]] >>
 
 ---
-### 📅 Daily Questions
-##### 🌜 Last night, after work, I...
+## 📅 Daily Questions
+
+##### 🙌 What happened today that I'm grateful for...
 - 
 
-##### 🙌 One thing I'm excited about right now is...
+##### 🚀 Actions that moved me towards my goals...
 - 
 
-##### 🚀 One+ thing I plan to accomplish today is...
-- [ ] 
-
-##### 👎 One thing I'm struggling with today is...
+##### 🤔 Some changes I could make...
 - 
 
 ---
-# 📝 Notes
+## ✍ To-Do List
+- [ ] 
+
+---
+## 📝 Today...
 - <% tp.file.cursor() %>
 
 ---
